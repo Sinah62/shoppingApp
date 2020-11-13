@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+/* Create a column layout with Flexbox */
+
+.row {
+    display: flex;
+}
+
+
+/* Left column (menu) */
+
+.left {
+    flex: 33.33%;
+    padding: 15px 0;
+}
+
+.left h2 {
+    padding-left: 8px;
+}
+
+
+/* Right column (page content) */
+
+.right {
+    flex: 66.67%;
+    padding: 15px;
+}
+
+
+/* Style the search box */
+
+#mySearch {
+    width: 100%;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #666;
+}
+
+
+/* The grid: Four equal columns that floats next to each other */
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+
+/* Style the images inside the grid */
+
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.column img:hover {
+    opacity: 1;
+}

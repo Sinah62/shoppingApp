@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.colR {
+    float: left;
+    padding: 10px;
+    height: 1400px;
+    width: 25%;
+}
+
+.colM {
+    float: left;
+    padding: 10px;
+    height: 1400px;
+    width: 60%;
+}
+
+.colL {
+    float: left;
+    padding: 10px;
+    height: 1400px;
+    width: 15%;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}

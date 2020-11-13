@@ -1,0 +1,17 @@
+<div style="background-color: #ccc;" *ngIf="cartItems.length ==0" class="alert">Your Cart is Empty.</div>
+<div *ngIf="cartItems.length > 0" class="container">
+
+    <div class="col">
+        <h2>Cart</h2>
+        <div class="row" *ngFor="let item of cartItems">
+            <app-cart-items [cartItem]='item'></app-cart-items>
+        </div>
+
+        <p><a><strong>Total</strong></a> <span class="price" style="color: black;"><b>{{ cartTotal | currency:'R'}}</b></span></p>
+
+        <p>
+            <input type="submit" value="Checkout" class="btn">
+
+            <!-- <app-login-form></app-login-form> -->
+    </div>
+</div>

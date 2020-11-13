@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #ccc;
+    color: black;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    margin: 0;
+    width: 5%;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: black;
+    color: white;
+}

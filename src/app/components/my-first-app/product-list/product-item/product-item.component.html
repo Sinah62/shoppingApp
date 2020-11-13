@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="column">
+        <img [src]="productItem.imageURL" width="100%">
+        <div class="card-body">
+            <strong>{{productItem.price | currency:'R'}}</strong>
+            <p class="card-text">{{productItem.description}}</p>
+            <div class="content between">
+                <div class="btn-group">
+                    <button type="button" class="btn" (click)="handleAddToCart()">
+                         Add to cart</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

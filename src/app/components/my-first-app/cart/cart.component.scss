@@ -1,0 +1,27 @@
+span.price {
+    float: right;
+    color: grey;
+}
+
+.btn {
+    background-color: #666;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
+.container {
+    border: 1px solid #666;
+    background: #ccc;
+}

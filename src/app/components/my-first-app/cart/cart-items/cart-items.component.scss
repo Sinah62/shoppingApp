@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+.list {
+    -ms-flex: 25%;
+    flex: 25%;
+    //border: 1px solid rgb(117, 105, 105);
+}
+
+.items-group {
+    background-color: white;
+    padding: 0;
+}
+
+span.price {
+    float: right;
+    color: grey;
+}
